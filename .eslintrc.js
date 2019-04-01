@@ -1,13 +1,8 @@
 module.exports = {
-  "extends": "standard", // Airbnb 风格
+  "extends": ["standard"], // standard 风格
   rules: {
     'no-console': 'error', // 允许在代码中保留 console 命令
+    "prettier/prettier": "error",
   },
-  globals: {
-    wx: null,
-    App: null,
-    Page: null,
-    getApp: null,
-    Component: null,
-  },
+  globals: {},
 };
