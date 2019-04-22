@@ -1,5 +1,5 @@
 {
-  "extends": ["/usr/local/lib/node_modules/stylelint-config-recommended", "/usr/local/lib/node_modules/stylelint-config-recess-order"],
+  "extends": ["/usr/local/lib/node_modules/stylelint-config-standard", "/usr/local/lib/node_modules/stylelint-config-recess-order"],
   "plugins": [],
   "rules": {
     "at-rule-no-unknown": [ true, {
