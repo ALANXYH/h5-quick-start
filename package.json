@@ -1,0 +1,31 @@
+{
+  "name": "h5-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnselRain/h5-quick-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnselRain/h5-quick-start/issues"
+  },
+  "homepage": "https://github.com/AnselRain/h5-quick-start#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.1.4"
+  }
+}
