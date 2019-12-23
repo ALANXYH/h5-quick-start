@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard && node my-tests.js",
     "build": "babel src --out-dir js",
     "sass": "sass --watch sass:css --style compressed"
   },
@@ -26,10 +26,12 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
     "standard": "^14.3.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "core-js": "^3.1.4"
+    "core-js": "^3.1.4",
+    "eslint-plugin-prettier": "^3.1.2"
   }
 }

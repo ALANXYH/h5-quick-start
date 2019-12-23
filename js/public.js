@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /**
  *  version:1.0
@@ -7,7 +7,7 @@
  */
 // 切换页面font-size值
 (function () {
-  var width = document.documentElement.clientWidth;
-  var html = document.querySelector('html');
-  html.style.fontSize = width / 7.5 + 'px';
-})();
+  var width = document.documentElement.clientWidth
+  var html = document.querySelector('html')
+  html.style.fontSize = width / 7.5 + 'px'
+})()
